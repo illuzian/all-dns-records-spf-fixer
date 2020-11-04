@@ -9,7 +9,7 @@ $LogFile = ".\SPFUpdate-$Timestamp.log"
 
 # If set to $true this will action on the zone specified in $SingleTargetZone otherwise it will enumerate all records in the resource group.
 $SingleZone = $true
-$SingleTargetZone = 'test.luz.io'
+$SingleTargetZone = 'yourzone.com'
 
 # Logging function
 function OutputStatus {
